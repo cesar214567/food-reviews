@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="import" href="./js/data.json" type="application/json" id="json-data">
+        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+        <!-- Load the element definition -->
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top " id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse overflow-auto" id="navbarResponsive">
+                <ul class="navbar-nav " id="navbar">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0" id="sections">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Cesar
+                        <span class="text-primary">Madera</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        camgcamg11@gmail.com · 988481388 ·
+                        <a href="mailto:name@email.com">camgcamg11@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Graduated from the Computer Sciences degree at the 
+                        UTEC University of Engineering and Technology, interested in being 
+                        part of large and complex projects. I have experience in backend 
+                        development with Java and Typescript, but I also have knowledge of 
+                        Ruby on Rails and Python. Among my skills, empathy when leading, 
+                        adaptability and the ability to solve complex problems effectively 
+                        using my creativity and logical thinking are notable. Currently I 
+                        am working in some personal projects (this page being one of them) 
+                        so please enjoy and if you would like to help me, I wil be leaving my patreon below</p>
+                    <hr/>
+                    <p class="lead mb-5">Egresado de la carrera de Ciencias de la Computación 
+                        de la Universidad de Ingeniería y Tecnología (UTEC), interesado en ser 
+                        parte de proyectos grandes y complejos. Tengo experiencia en desarrollo 
+                        backend con Java y Typecript, pero también tengo conocimientos de Ruby 
+                        on Rails y Python. Entre mis habilidades destacan la empatía a la hora 
+                        de liderar, la adaptabilidad y la capacidad para resolver problemas 
+                        complejos de forma eficaz utilizando mi creatividad y pensamiento lógico.
+                        Actualmente estoy trabajando en algunos proyectos personales (esta página 
+                        es uno de ellos) así que disfrútalo y si quieres ayudarme, dejaré mi patreon
+                        abajo.
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/cesar-madera-garces/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/cesar214567"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/CesarMaderaGarces/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://patreon.com/cesarMadera"><i class="fab fa-patreon"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Backend Developer Java</h3>
+                            <div class="subheading mb-3">Pragma - Bancolombia</div>
+                            Empresa de consultoría de TI enfocada en mejorar la vida de las personas transformando empresas
+                            <ul>
+                                <li>Reduje el costo y tiempo de implementación en un 70% de adaptadores para el consumo de API's
+                                    al crear un webclient configurable en Java Webflux y mejoré el performance 60% en el 
+                                    microservicio de  Authorization Services</li>
+                                <li>Actualicé 2 microservicios a Java 17 y Springboot 3</li>
+                                <li>Cree un adaptador de reportes genérico con la capacidad de descarga de productos a buckets remotos</li>
+                                <li>Realicé 2 asssesment para la implementación del patrón CircuitBreaker y  
+                                    la creación de una librería interna para el webclient configurable (una versión menos genérica)</li>
+                                <li>Cree un lambda para la modificación de un secreto en secretsManager y dentro de la configuración de un
+                                    Firehose.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Noviembre 2022 - Actualidad</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Backend Developer Lead and Cofounder</h3>
+                            <div class="subheading mb-3">Devant</div>
+                            Empresa de consultoría de TI enfocada a resolver de la mejor manera proyectos para múltiples empresas de diferentes rubros.
+                            <ul>
+                                <li>Lideré a un grupo de 7 compañeros de la universidad (4 de ellos enfocados específicamente a backend)</li>
+                                <li>Me encargué especialmente de la comunicación con los clientes, mostrar avances y distribuir las tareas.</li>
+                                <li>Se trabajó con diferentes tecnologías como Java (Springboot) y typescript(Nestjs), 
+                                    Postgresql y MongoDB para las bases de datos</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Diciembre 2020 - Abril 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Nodejs Backend Developer</h3>
+                            <div class="subheading mb-3">Culqi</div>
+                            Empresa de pagos electrónicos a través de POS.
+                            <ul>
+                                <li>Arquitecté e implementé un sistema de pagos electrónicos para diferentes servicios (agua,electricidad,etc)</li>
+                                <li>En paralelo, resolví tickets con respecto a transacciones perdidas y encontré un error de dia 0,
+                                    en donde múltiples transacciones en un periodo de tiempo no fueron registradas.
+                                </li>
+                                <li>Se trabajó en Javascript(Express, Nodejs) y el modelo de base de datos fue dual (Postgresql y MongoDB)</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Diciembre 2021 - Marzo 2022</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5"></h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Universidad de Ingeniería y Tecnología UTEC.</h3>
+                            <div class="subheading mb-3">Bachiller en Ciencias de la Computación</div>
+                            <div>Computer Science - AI and Software Engineering track.</div>
+                            <p>GPA: 3.2</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Marzo 2018 - Julio 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Universidad de São Paulo</h3>
+                            <div class="subheading mb-3">Programa de intercambio para Bachiller en Ciencias de la Computación.</div>
+                            <p>GPA: 3.6</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Marzo 2022 - Agosto 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">LeWaggon</h3>
+                            <div class="subheading mb-3">Fullstack Ruby on Rails Web Development Bootcamp</div>
+                            <p>GPA: N.A</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Agosto 2021 - Octubre 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Udemy</h3>
+                            <div class="subheading mb-3">Databricks and Apache Spark for Big Data</div>
+                            <p>GPA: N.A</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2024 </span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-database"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
