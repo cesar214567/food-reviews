@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', async event => {
         sections.insertAdjacentHTML("beforeend",`
         <section class="resume-section" id="${review['name']}">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">${review['name']}</h2>
+                    <h2 class="mb-5 text-primary">${review['name']}</h2>
                     <zero-md src="${'https://raw.githubusercontent.com/cesar214567/food-reviews/master/mds/' + review['md']}"></zero-md>
                 </div>
             </section>
