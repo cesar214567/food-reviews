@@ -1,8 +1,9 @@
 
 const data = [
     {
-        "name":"shimaya",
-        "md":"shimaya.md"
+        "name":"ktana",
+        "md":"ktana.md",
+        "background":"ktana.png"
     }
 ]
 
@@ -35,10 +36,10 @@ window.addEventListener('DOMContentLoaded', async event => {
         navbar.insertAdjacentHTML("beforeend",`<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#${review['name']}">${review['name']}</a></li>`);
         const sections = document.getElementById('sections');
         sections.insertAdjacentHTML("beforeend",`
-        <section class="resume-section" id="${review['name']}">
+        <section class="resume-section" id="${review['name']}" style="background-image: url('./assets/img/${review['name']}/ktana.png');">
                 <div class="resume-section-content">
                     <h2 class="mb-5 text-primary">${review['name']}</h2>
-                    <zero-md src="${'https://raw.githubusercontent.com/cesar214567/food-reviews/master/mds/' + review['md']}"></zero-md>
+                    <zero-md src="${'https://raw.githubusercontent.com/cesar214567/food-reviews/main/mds/' + review['md']}"></zero-md>
                 </div>
             </section>
             <hr class="m-0" />
