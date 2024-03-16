@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', async event => {
         navbar.insertAdjacentHTML("beforeend",`<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#${review['name']}">${review['name']}</a></li>`);
         const sections = document.getElementById('sections');
         sections.insertAdjacentHTML("beforeend",`
-        <section class="resume-section" id="${review['name']}" style="background-image: url('./assets/img/${review['name']}/ktana.png');">
+        <section class="resume-section" id="${review['name']}" style="background-image: url('./assets/img/${review['name']}/ktana.png');background-size: contain;background-repeat: no-repeat;">
                 <div class="resume-section-content">
                     <h2 class="mb-5 text-primary">${review['name']}</h2>
                     <zero-md src="${'https://raw.githubusercontent.com/cesar214567/food-reviews/main/mds/' + review['md']}"></zero-md>
