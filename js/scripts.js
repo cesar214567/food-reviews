@@ -36,13 +36,13 @@ window.addEventListener('DOMContentLoaded', async event => {
         navbar.insertAdjacentHTML("beforeend",`<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#${review['name']}">${review['name']}</a></li>`);
         const sections = document.getElementById('sections');
         sections.insertAdjacentHTML("beforeend",`
-        <section class="resume-section" id="${review['name']}" style="background-image: url('./assets/img/${review['name']}/ktana.png');background-size: contain;background-repeat: no-repeat;opacity: .5;">
-                <div class="resume-section-content" style="opacity:1;">
+        <section class="resume-section" id="${review['name']}" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./assets/img/${review['name']}/ktana.png');background-size: contain;background-repeat: no-repeat; ">
+                <div class="resume-section-content" style="z-index:1;">
                     <h2 class="mb-5 text-primary">${review['name']}</h2>
                     <zero-md src="${'https://raw.githubusercontent.com/cesar214567/food-reviews/main/mds/' + review['md']}">
                         <template>
                         <!-- The CSS load order is respected -->
-                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                        <link rel="stylesheet" href="../css/styles.css" />
                         </template>
                     </zero-md>
                 </div>
