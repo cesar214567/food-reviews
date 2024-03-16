@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', async event => {
         const sections = document.getElementById('sections');
         sections.insertAdjacentHTML("beforeend",`
         <section class="resume-section" id="${review['name']}" style="background-image: url('./assets/img/${review['name']}/ktana.png');background-size: contain;background-repeat: no-repeat;opacity: .5;">
-                <div class="resume-section-content">
+                <div class="resume-section-content" style="opacity:1;">
                     <h2 class="mb-5 text-primary">${review['name']}</h2>
                     <zero-md src="${'https://raw.githubusercontent.com/cesar214567/food-reviews/main/mds/' + review['md']}">
                         <template>
